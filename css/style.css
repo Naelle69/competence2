@@ -1,0 +1,367 @@
+
+/* Set the background color of body to tan */
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  background-color: #62615C;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Début NAVBAR  */
+.navbar{
+  padding:80px 5px 80px 5px;
+  height:80vh;
+  width: 40px;
+  background-color: #484526;
+  border-radius: 15px 5px 15px 5px;
+  top: 10vh;
+  left:2%;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+.navbar:hover{
+  box-shadow: 1px 1px 3px 3px rgb(222, 162, 105, 0.2);
+}
+
+.contentmobile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 450px;
+  }
+
+.client{
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.contactnavigation{
+  height: 160px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+
+
+
+/* Style the content */
+.contenuhomepage{
+  width: 80%;
+  height: 80vh;
+  margin-left: 16%;
+  margin-right: 8%; 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  position:absolute;
+  top: 80px;
+}
+
+.offredelasemaine{
+  background-color: #ffffff;
+  border-radius:50px 5px 0px 5px;
+  padding: 1rem;
+  padding-top: 50px;
+  width: 100%;
+  height: 480px;
+  position:relative;
+  top: 80px;
+}
+
+.videohompepage{
+  border-radius:50px 5px 50px 5px;
+  box-shadow: 1px 1px 3px 3px rgba(222, 162, 105, 0.5); 
+  width: 97%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.offre{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pokgourmet{
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+main{
+  height: auto;
+  width: 100%;
+}
+
+.h{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 15%;
+}
+
+.relative {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+}
+
+
+.plat{
+  background-image: url("../image/fondblanc.svg");
+  width: 65%;
+  height: auto;
+  background-repeat: no-repeat;
+  padding: 10%;
+  margin-left: 15%;
+}
+
+.plat img{
+  border-radius: 50%;
+  position: relative;
+  top: -150px;
+  left: 130px;
+  z-index: 1;
+  box-shadow: 2px 2px 3px 3px rgb(215, 157, 102, 0.4);
+}
+
+.ptexteplat{
+  width: 80%;
+}
+
+
+/* Section Nos extras */
+.nosextras{
+  width: 80%;
+  height: auto;
+  background-image:url("../image/fond\ vert.svg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 70px;
+  margin-left: 15%;
+}
+
+.infos{
+  background-color: #62615C;
+  padding: 5%;
+  width: 75%;
+  height: 60%;
+  position: relative;
+  top:-90px ;
+  border-radius: 5%; 
+  box-shadow: 2px 2px 3px 3px rgb(215, 157, 102, 0.2);
+}
+
+.flex {
+  color: #ffffff;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* Fin Section son extras */
+
+
+/* Début Nos idées recettes */
+.nosideesrecettes{
+    padding-bottom: 5%;
+    margin-bottom: 15%;
+}
+
+.recettes{
+  background-image: url(../image/grandfond.svg);
+  background-repeat: no-repeat;
+  width: 230px;
+  height: 350px;;
+  padding: 3%;
+}
+
+.recettes:hover{
+  background-image: url(../image/grandfondvert.svg);
+}
+
+.ideetext{
+  position: relative;
+  top: 90px;
+  right: 10px;
+}
+
+.ideetext .h4vert:hover{
+  color:#D79D66
+}
+
+
+.imagerecette{
+  width: 120px;
+  border-radius: 50%;
+  position: relative;
+  left: 30px;
+}
+
+
+
+/* EXCLUSIVITE */
+.exclusivite{
+  background-color: #ffffff;
+  border-radius: 30px 5px 30px 5px;
+  box-shadow: 3px 3px 5px 5px rgb(215, 157, 102, 0.2);
+  padding: 5%;
+  width: 75%;
+  height: 60%;
+  margin-left: 15%;
+}
+
+
+/* SCROLL AVIS */
+.nosavis{
+  padding-top:15%;
+  padding-bottom: 5%;
+  margin-bottom: 15%;
+}
+
+.avis{
+  width: 65%;
+  height: 200px;
+  background-color: #ffffff;
+  border: solid 1px #D79D66;
+  border-radius: 30px 5px 30px 5px;
+  padding: 3%;
+  margin: 10px;
+}
+
+.icones{
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.iconesavis1{
+  width: 60px;
+  position: relative;
+  top: -30px;
+  border: solid 2px #484526;
+  border-radius: 50%;
+}
+
+.iconesavis2{
+  position: relative;
+  top: -55px;
+  width: 80px;
+}
+
+/* section Astuce Eco */
+
+.gradient .block{
+  width: 100%;
+  height: auto;
+  background: rgb(72,69,38);
+  background: linear-gradient(90deg, rgba(72,69,38,1) 0%, rgba(215,157,102,1) 50%, rgba(98,97,92,1) 100%);
+  animation: gradient 10s ease infinte;
+  align-items: center;
+  padding: 10%;
+}
+
+@keyframes gradient {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+/* Nous contacter */
+.contacteznous{
+  margin-left: 15%;
+}
+.formulaire{
+  border: solid 2px  rgb(72,69,38);
+  border-radius: 30px 5px 30px 5px;
+  width: 90%;
+  padding: 5%;
+  margin-top: 10%;
+
+  
+}
+.map iframe{
+  border-radius: 30px 5px 30px 5px;
+  box-shadow: 3px 3px 5px 5px rgb(215, 157, 102, 0.3);
+  width: 250px;
+  height: auto;
+  z-index: 1;
+  position: relative;
+  top: -15px;
+  left: 5%;
+}
+
+/* Nos avantages */
+.nosavantages{
+  margin-left: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.avantages{
+  height: auto;
+  width: 65%;
+  display: flex;
+}
+
+.avantages1{
+  height: auto;
+  display: flex;
+  width: 85%;
+}
+
+.icones2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  width: auto;
+}
+
+.icones .h4vert .text{
+  height: auto;
+  width: 60px;
+}
+
+.icones .h4vert{
+  height: auto;
+  width: 70%;
+}
+
+.iconesavis1{
+  width: 36px;
+  height: 36px;
+}

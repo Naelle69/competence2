@@ -1,0 +1,644 @@
+/* LAPTOP ET DESKTOP */
+@media screen and (min-width:769px) and (max-width:2570px){
+  header{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  h1{
+    font-size: 90px;
+  }
+
+  .h2marron{
+    font-size: 50px;
+  }  
+
+  .h3vert{
+    font-size: 30px;
+  }
+
+  .pgourmet{
+    font-size: 30px;
+  }
+
+  .navbar{
+    display:none
+  }
+
+  .logo{
+    display: none;
+  }
+
+  .contenuhomepage{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 200px; 
+  }
+
+  .offredelasemaine{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 400px;
+    margin-right: 50px;
+    position: relative;
+    left: -100px;
+    border-radius: 0px 5px 50px 0px;
+  }
+
+  .pokgourmet{
+    width: 50%;
+    margin-right: 100px;
+    margin-left: 50px;
+    justify-content: space-around;
+  }
+  
+
+  .videohompepage{
+    width: 50%;
+    height: 74%;
+  }
+
+
+  .offre{
+    padding-left: 150px;
+    padding-right: 50px;
+  }
+
+  /* DEBUT NAVBAR WEB */
+  .vide1{
+    display: none;
+  }
+
+  .navbarweb{
+    height: 100px;
+    width: 90%;
+    background-color: #484526;
+    border-radius:30px 5px 30px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .navbarweb:hover{
+    box-shadow: 1px 1px 3px 3px rgb(222, 162, 105, 0.2);
+  }
+  
+  .menunav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+  }
+
+  .client{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+  }
+
+  .contentweb{
+    padding:  30px 60px 30px 60px;
+    height: auto;
+    width: 90%;
+    border-radius:30px 5px 30px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+  }
+
+/* FIN NAVBAR WEB */
+
+/* Main */
+.relative {
+  overflow-x: hidden;
+}
+
+.nosplats{
+  width: 100%;
+  justify-content: center;
+  scroll-snap-type: none;
+}
+
+.plat{
+  width: 18%;
+  height: auto;
+  margin-left: 4%;
+  padding: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.plat img{
+  width: 150px;
+  border-radius: 50%;
+  position: relative;
+  top: -150px;
+  left: 200px;
+  z-index: 1;
+  box-shadow: 2px 2px 3px 3px rgb(215, 157, 102, 0.4);
+}
+
+.plat span{
+  width: 120px; 
+  padding: 10px;
+  position: relative;
+  top: 60px;
+}
+
+.nosextras{
+  width: 90%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.infos{
+  background-color: #62615C;
+  padding: 2%;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  top: 200px;
+  left: -250px;
+}
+
+.pic-ctn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 900px;
+  position: relative;
+  left: -370px;
+}
+
+.pic-ctn > .img {
+  width: 250px;
+}
+
+#img1{
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px 3px rgb(215, 157, 102, 0.4);
+  position: relative;
+  top: -30px;
+}
+
+#img2{
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px 3px rgb(215, 157, 102, 0.4);
+  position: relative;
+  top: -80px;
+}
+
+#img3{
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px 3px rgb(215, 157, 102, 0.4);
+  position: relative;
+  top: -130px;
+}
+.h{
+  position: relative;
+  top: 100px;
+
+}
+.nosideesrecettes{
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  margin-left: 200px;
+  margin-right: 170px;
+  position: relative;
+  
+}
+
+.recettes{
+  background-image: url(../image/grandfond.svg);
+  background-repeat: no-repeat;
+  width: 480px;
+  height: 600px;
+}
+
+.ideetext{
+  position: relative;
+  top: 170px;
+  right: 60px;
+}
+
+.imagerecette{
+  width: 180px;
+  border-radius: 50%;
+  position: relative;
+  left: 40px;
+}
+
+/* EXCLUSIVITE */
+.exclusivite{
+  padding: 5%;
+  width: 50%;
+  height: 40%;
+}
+
+/* SCROLL AVIS */
+.nosavis{
+  padding-top:15%;
+  padding-bottom: 5%;
+  margin-bottom: 15%;
+  margin-left: 300px;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.avis{
+  width: 400px;
+  height: 300px;
+  padding: 1%;
+  
+}
+
+.icones{
+  width: 85%;
+  height: 100px;
+}
+
+.iconesavis1{
+  width: 60px;
+  position: relative;
+  top: -30px;
+  
+}
+
+.iconesavis2{
+  position: relative;
+  top: -75px;
+}
+
+
+}
+
+
+
+
+
+/* Tablette */
+@media screen and (min-width:481px) and (max-width:768px){
+    header{
+      width: 100%;
+      height: 100vh;
+      margin: 0%;
+      padding: 0%;
+    }
+  
+    h1{
+      font-size: 50px;
+    }
+  
+    .h2marron{
+      font-size: 25px;
+    }  
+
+    .pgourmet{
+      font-size: 20px
+    }
+
+    .navbar{
+      display:none
+    }
+  
+    .logo{
+      display: none;
+    }
+
+    .vide2{
+      height: 50px;
+    }
+  
+    .contenuhomepage{
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      margin-left: 0%;
+      margin-right: 0%;
+      margin-top: 150px; 
+    }
+  
+    .offredelasemaine{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      height: 350px;
+      margin-right: 10px;
+      border-radius: 0px 5px 50px 0px;
+      padding-top: 30px;
+      padding-bottom: 30px
+    }
+  
+    .pokgourmet{
+      width: 90%;
+      margin-right: 60px;
+      margin-left: 30px;
+      height: 350px;
+    }
+  
+    .videohompepage{
+      width: 90%;
+      height: 54%;
+    }
+  
+    /* début navbar tablette */
+    .navbarweb{
+      height: 80px;
+      width: 90%;
+      background-color: #484526;
+      border-radius:30px 5px 30px 5px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 20px;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  
+    .navbarweb:hover{
+      box-shadow: 1px 1px 3px 3px rgb(222, 162, 105, 0.2);
+    }
+    
+    .navbarlogo{
+      width: 60px;
+    }
+
+    .menunav{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 450px;
+    }
+  
+    .client{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 60px;
+    }
+  
+    .contentweb{
+      padding:  30px 60px 30px 60px;
+      height: auto;
+      width: 90%;
+      border-radius:30px 5px 30px 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 100px;
+}
+
+/* Main */
+.nosplats{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
+}
+
+.plat{
+  background-image: url("../image/fondblanc.svg");
+  width: 43%;
+  height: auto;
+  background-repeat: no-repeat;
+  padding: 7%;
+  margin-left: 15%;
+}
+
+.plat img{
+  width: 130px;
+  border-radius: 50%;
+  position: relative;
+  top: -150px;
+  left: 150px;
+  z-index: 1;
+  box-shadow: 2px 2px 3px 3px rgb(215, 157, 102, 0.4);
+}
+
+.nosextras{
+  width: 80%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.infos{
+  background-color: #62615C;
+  padding: 2%;
+  width: 300px;
+  height: 200px;
+  position: relative;
+  top: 40px;
+  left: 70px;
+}
+
+.pic-ctn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 500px;
+  position: relative;
+  left: 0px;
+}
+
+.pic-ctn > .img {
+  width: 130px;
+}
+
+#img1{
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px 3px rgb(215, 157, 102, 0.4);
+  position: relative;
+  top: -20px;
+}
+
+#img2{
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px 3px rgb(215, 157, 102, 0.4);
+  position: relative;
+  top: -50px;
+}
+
+#img3{
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px 3px rgb(215, 157, 102, 0.4);
+  position: relative;
+  top: -70px;
+}
+
+.nosideesrecettes{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/* EXCLUSIVITE */
+.exclusivite{
+  padding: 10%;
+  width: 75%;
+  height: 50%;
+}
+
+
+
+/* SCROLL AVIS */
+.nosavis{
+  padding-top:5%;
+  padding-bottom: 5%;
+  margin-bottom: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.avis{
+  width: 230px;
+  height: 200px;
+}
+
+.icones{
+  width: 85%;
+  height: 100px;
+}
+
+.iconesavis1{
+  width: 50px;
+  position: relative;
+  top: -25px;
+  
+}
+
+.iconesavis2{
+  position: relative;
+  top: -75px;
+  width: 60px;
+}
+
+}
+
+
+ 
+
+
+/* MOBILE */
+@media screen and (min-width: 320px) and (max-width:480px){
+  .pgourmet{
+    display: none; 
+  }
+
+  .contentweb{
+    display: none;
+  }
+
+  .navbarweb{
+    display:none;
+  }
+
+  .vide2{
+    display: none;
+  }
+
+  .navlogo{
+    display: none
+    ;
+  }
+
+    /* carousel nos extras */
+@keyframes display {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+
+.pic-ctn {
+  position: relative;
+  top:-190px ;
+  left: 40px;
+  width: 25vw;
+  height: 75px;
+  margin-top: 15vh;
+  border-radius: 25%;
+
+}
+
+.pic-ctn > .img {
+  position: absolute;
+  top: 0;
+  width: 130px;
+  left: calc(50% - 100px);
+  opacity: 0;
+  animation: display 10s infinite;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.pic-ctn img{
+    border-radius: 50%;
+}
+.img:nth-child(2) {
+  animation-delay: 2s;
+}
+.img:nth-child(3) {
+  animation-delay: 4s;
+}
+.img:nth-child(4) {
+  animation-delay: 6s;
+}
+.img:nth-child(5) {
+  animation-delay: 8s;
+}
+  /* fin carousel nos extras */
+
+  .nosplats{
+    overflow-x:auto;
+  }
+
+} 
